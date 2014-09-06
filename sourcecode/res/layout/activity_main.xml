@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:padding="10dp"
+                android:text="List of Names"
+                android:textColor="@android:color/white" />
+
+            <com.listviewinsidescrollview.NonScrollableListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="2dp"
+                android:entries="@array/names" >
+            </com.listviewinsidescrollview.NonScrollableListView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:padding="10dp"
+                android:text="List of Names2"
+                android:textColor="@android:color/white" />
+
+            <com.listviewinsidescrollview.NonScrollableListView
+                android:id="@+id/listview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="2dp"
+                android:entries="@array/names" >
+            </com.listviewinsidescrollview.NonScrollableListView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListViewInsideScrollView</string>
+
+    <string-array name="names">
+        <item>Jordon Kenna</item>
+        <item>Malik Durfee</item>
+        <item>Pamella Critchfield</item>
+        <item>Dannie Quintero</item>
+        <item>King Furlough</item>
+        <item>Corrinne Villasenor</item>
+        <item>Federico Dartez</item>
+        <item>Louise Dyches</item>
+        <item>Shari Crow</item>
+        <item>Sergio Killinger</item>
+        <item>Lisbeth Salyards</item>
+        <item>Darnell Lama</item>
+        <item>Gloria Doman</item>
+        <item>Jenice Wolske</item>
+        <item>Caryl Watrous</item>
+        <item>Shiloh Tomas</item>
+        <item>Sonja Kawasaki</item>
+        <item>Madalene Schachter</item>
+        <item>Jillian Stripling</item>
+        <item>Dixie Salvatore</item>
+    </string-array>
+
+</resources>
